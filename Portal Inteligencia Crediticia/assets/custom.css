@@ -1,0 +1,149 @@
+
+body {
+	font-family: arial;
+	background-color: #F5F5F5;
+}
+
+
+h1, h2, h3, h4, h5, h6, P, Footer {
+	text-align: center;
+	color: grey;
+	font-weight: normal;
+	font-family: Arial;
+}
+
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.75em; }
+h3 { font-size: 1.5em; }
+
+/* Titulo Menu Izquierda */
+h4 {	font-size: 40px;
+	color: white;
+}
+
+/* Descripcion Menu Izquierda */
+h5 {	font-size: 20px; 
+	color: white;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+
+.separador1 { height: 10px; }
+
+.separador2 { height: 20px; }
+
+.separador3 { height: 30px; }
+
+.separador4 { height: 40px; }
+
+
+.grafico1  {
+	border-radius: 15px;
+	font-family: Arial;
+	border: 3px solid orange;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 0 px;
+	padding: 0px;
+	align: center;
+}
+
+
+
+.tabla th {
+	font-family: Arial;
+	background: rgb(190, 190, 190) !important; 
+	color: black !important; 
+	text-align: center !important; 
+	font-weight: bold !important; 
+	font-size: 1em !important;   
+}
+
+.tabla tr:nth-child(even) td {
+	background-color: rgb(230, 230, 230) !important;    
+}
+
+.tabla tr:hover td {
+	background-color: #BCD2E5 !important;
+}
+
+.precarga {
+	height: 60px; 
+	background-image: url("/images/logo.png") !important;
+}
+
+.boton_exportar {
+	font-type: arial;
+	font-weight: bold;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+#	position: absolute;
+#    	right: 50%;    
+}
+
+.boton_exportar:hover {
+	background-color: #BCD2E5;
+}
+
+.export {
+    display: none;
+}
+
+
+.tabla {
+	text-align: center !important;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	user-select: none;
+	color: black !important;
+}
+
+.tabla tr {
+	text-align: center;
+}
+
+
+.pagecontent {
+	margin-left: 192px;
+    	margin-right: 32px;
+ 	padding: 32px 16px;
+}
+
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 160px;
+	padding: 32px 16px;
+	background-color: rgb(127, 127, 127);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.combobox {
+	font-weight: 200;
+	font-size: 14px;
+	line-height: 12px;
+	color: #000000;
+	margin: 0;
+	padding: 8px;
+	background: rgba(0,0,0,0);
+	position: relative;
+	display: inline-block;
+	width: 300px;
+	vertical-align: middle;
+}
+
+/*  */
+.nav-link {
+	padding: 8px 10px;
+}
+
+.nav-link:hover, .nav-link:focus {
+	background-color: #BCD2E5 !important;
+}
+
+
+
+
